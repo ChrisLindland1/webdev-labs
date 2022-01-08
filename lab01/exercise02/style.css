@@ -12,13 +12,19 @@ Feel free to borrow from Exercise 1.
 */
 
 
-/* Tablet Media Query */
 @media only screen and (max-width: 1000px) {
 
-}
-
-/* Mobile Phone Media Query */
-@media only screen and (max-width: 600px) {
-
+    part1 {
+        font-size: 12 px;
+    }
     
-}
+    }
+    
+    /* Mobile Phone Media Query */
+    @media only screen and (max-width: 600px) {
+    
+    part2 {
+        font-size: 10 px;
+    }
+        
+    }
